@@ -5,11 +5,5 @@
       "src": "app.py",
       "use": "@vercel/python"
     }
-  ],
-  "routes": [
-    {
-      "src": "/callback",
-      "dest": "/app.py"
-    }
   ]
 }
